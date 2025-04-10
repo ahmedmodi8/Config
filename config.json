@@ -1,11 +1,19 @@
 {
   "files": [
     {
-      "name": "ملف 1",
+      "name": "config:US file",
       "url": "https://example.com/file1.pdf"
     },
     {
-      "name": "ملف 2",
+      "name": "config:CA file",
+      "url": "https://example.com/file2.mp4"
+    },
+    {
+      "name": "config:SG file",
+      "url": "https://example.com/file1.pdf"
+    },
+    {
+      "name": "config:MA file",
       "url": "https://example.com/file2.mp4"
     }
   ]
