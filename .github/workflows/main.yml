@@ -2,7 +2,7 @@ name: Download VIP UDP CUSTOM Files Daily
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # تشغيل يوميًا عند منتصف الليل بتوقيت UTC
+    - cron: '0 0 * * *'  # تشغيل يومي عند منتصف الليل بتوقيت UTC
   workflow_dispatch:
 
 jobs:
@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Check out repository with token
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Create target directory
         run: mkdir -p "assets/assets/config"
@@ -31,7 +33,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-      - name: Commit and push updated files
+      - name: Commit and push updated files using token
         run: |
           git add assets/assets/config
           git commit -m "Update VIP UDP CUSTOM files in config folder" || echo "No changes to commit"
