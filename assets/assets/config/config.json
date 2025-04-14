@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "name": "config:VIP UDP CUSTOM1",
+      "flag":"https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/flags/win.png",
+      "url": "https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/assets/config/VIP%20UDP%20CUSTOM1.hc"
+    },
+    {
+      "name": "config:VIP UDP CUSTOM2",
+      "flag":"https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/flags/win.png",
+      "url": "https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/assets/config/VIP%20UDP%20CUSTOM2.hc"
+    },
+    {
+      "name": "config:VIP UDP CUSTOM3",
+      "flag":"https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/flags/win.png",
+      "url": "https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/assets/config/VIP%20UDP%20CUSTOM3.hc"
+    },
+    {
+      "name": "config:VIP UDP CUSTOM4",
+      "flag":"https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/flags/win.png",
+      "url": "https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/assets/config/VIP%20UDP%20CUSTOM4.hc"
+    },
+    {
+      "name": "config:VIP UDP CUSTOM5",
+      "flag":"https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/flags/win.png",
+      "url": "https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/assets/config/VIP%20UDP%20CUSTOM5.hc"
+    },
+    {
+      "name": "config:VIP UDP CUSTOM6",
+      "flag":"https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/flags/win.png",
+      "url": "https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/assets/config/VIP%20UDP%20CUSTOM6.hc"
+    },
+     {
+      "name": "config:VIP UDP CUSTOM7",
+      "flag":"https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/flags/orange.png",
+      "url": "https://raw.githubusercontent.com/ahmedmodi8/Config/refs/heads/assets/assets/config/VIP%20UDP%20CUSTOM7.hc"
+    }
+  ]
+}
