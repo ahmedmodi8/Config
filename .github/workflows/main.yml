@@ -1,0 +1,34 @@
+name: Download Files Daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # سيعمل هذا يومياً في الساعة 12:00 منتصف الليل بتوقيت UTC
+  workflow_dispatch:  # يمكن تشغيل هذا العمل يدوياً من واجهة GitHub
+
+jobs:
+  download_files:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+    
+    - name: Create config directory
+      run: mkdir -p Config/tree/assets/assets/config  # إنشاء المجلدات اللازمة إذا لم تكن موجودة
+
+    - name: Download files
+      run: |
+        curl -L "https://drive.usercontent.google.com/download?id=1802K0kHeVuqPodww2976cFwD34SXC9ly&export=download&authuser=0" -o "Config/tree/assets/assets/config/VIP UDP CUSTOM1.hc"
+        curl -L "https://drive.usercontent.google.com/download?id=1TGxP8IE2vckczywoxpDTkNEpM6k05HFQ&export=download&authuser=0" -o "Config/tree/assets/assets/config/VIP UDP CUSTOM2.hc"
+        curl -L "https://drive.usercontent.google.com/download?id=1el3YYW-iUce33-N2w2u_krvEWa4YmFfC&export=download&authuser=0" -o "Config/tree/assets/assets/config/VIP UDP CUSTOM3.hc"
+        curl -L "https://drive.usercontent.google.com/download?id=1UAUXHLWloXzKo9rJRO2kgQB6k0Zv_kpp&export=download&authuser=0" -o "Config/tree/assets/assets/config/VIP UDP CUSTOM4.hc"
+        curl -L "https://drive.usercontent.google.com/download?id=1cWAz5b5kfqoMECIcq0eG0VVw3nAE_a5A&export=download&authuser=0" -o "Config/tree/assets/assets/config/VIP UDP CUSTOM5.hc"
+        curl -L "https://drive.usercontent.google.com/download?id=1LYpErOorXxXLrRWa6DczMFI20N6lzNz3&export=download&authuser=0" -o "Config/tree/assets/assets/config/VIP UDP CUSTOM6.hc"
+
+    - name: Commit updated files
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add Config/tree/assets/assets/config/
+        git commit -m "Update VIP UDP CUSTOM files in config folder"
+        git push
