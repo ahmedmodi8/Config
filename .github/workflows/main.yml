@@ -29,6 +29,6 @@ jobs:
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add Config/tree/assets/assets/config/
+        git add assets/assets/config/
         git commit -m "Update VIP UDP CUSTOM files in config folder"
         git push
