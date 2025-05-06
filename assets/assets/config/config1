@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1746549999000,
+    "url": "https://yourdomain.com/api/files?format=geojson&limit=3",
+    "title": "File Download List",
+    "status": 200,
+    "api": "1.0",
+    "limit": 3,
+    "offset": 1,
+    "count": 3
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Document PDF",
+        "description": "Annual report for 2024",
+        "sizeMB": 2.5,
+        "fileType": "pdf",
+        "downloadUrl": "https://yourdomain.com/files/report2024.pdf",
+        "status": "available",
+        "uploaded": 1746541111222,
+        "updated": 1746542211333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0, 0]
+      },
+      "id": "file_001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Image Banner",
+        "description": "Promotional banner image",
+        "sizeMB": 1.2,
+        "fileType": "jpg",
+        "downloadUrl": "https://yourdomain.com/files/banner.jpg",
+        "status": "available",
+        "uploaded": 1746542222444,
+        "updated": 1746543333555
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0, 0]
+      },
+      "id": "file_002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "App Update",
+        "description": "APK file for v2.3",
+        "sizeMB": 15.4,
+        "fileType": "apk",
+        "downloadUrl": "https://yourdomain.com/files/app_v2.3.apk",
+        "status": "available",
+        "uploaded": 1746544444666,
+        "updated": 1746545555777
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0, 0]
+      },
+      "id": "file_003"
+    }
+  ]
+}
