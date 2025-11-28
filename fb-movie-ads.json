@@ -1,0 +1,9 @@
+{
+    "appId": "ca-app-pub-3940256099942544~3347511713",
+    "bannerId": "ca-app-pub-3940256099942544/6300978111",
+    "interstitialId": "ca-app-pub-3940256099942544/1033173712",
+    "appOpenId": "ca-app-pub-3940256099942544/1033173712",
+    "enableBanner": true,
+    "enableInterstitial": true,
+    "enableAppOpen": true
+}
